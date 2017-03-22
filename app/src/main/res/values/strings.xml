@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">NewVision</string>
+    <string name="nb_films_label">Nombre de films à afficher</string>
+    <string name="type_films_label">Type de films à afficher</string>
+    <string-array name="nb_films">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="type_films">
+        <item>Comédie</item>
+        <item>Aventure</item>
+        <item>Romance</item>
+        <item>Horreur</item>
+    </string-array>
 </resources>
