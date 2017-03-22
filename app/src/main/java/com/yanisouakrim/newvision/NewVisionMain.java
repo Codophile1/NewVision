@@ -14,7 +14,7 @@ public class NewVisionMain extends AppCompatActivity {
 
         Spinner spinner = (Spinner) findViewById(R.id.nb_films_spinner);
         // On créer un ArrayAdapter pour le Spinner
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.nb_films, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.nb_films , android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // Test
 
