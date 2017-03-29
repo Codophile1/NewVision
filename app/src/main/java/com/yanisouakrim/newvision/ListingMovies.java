@@ -9,10 +9,13 @@ import android.widget.ListView;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
+import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.yanisouakrim.newvision.Model.ArrayAdaptor.FilmArrayAdapter;
+import com.yanisouakrim.newvision.Model.Film.CollectionFilm;
 import com.yanisouakrim.newvision.Model.Film.Film;
+import com.yanisouakrim.newvision.Model.Film.Genre;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -20,6 +23,7 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class ListingMovies extends AppCompatActivity {
 
@@ -33,60 +37,41 @@ public class ListingMovies extends AppCompatActivity {
         {
             return;
         }
-        String commune = extras.getString(Intent.EXTRA_TEXT);
-        if (commune != null)
+        final Integer nbFilm = extras.getInt("nbFilms");
+        Genre genre = (Genre)extras.get("genre");
+
+        if (nbFilm != 0 && genre!=null)
         {
+            final String lang= Locale.getDefault().toLanguageTag();
 
             RequestQueue queue = Volley.newRequestQueue(this);
             StringRequest stringRequest =
                     new StringRequest(
                             Request.Method.GET,
-                            "https://nosql-workshop.herokuapp.com/api/installations/search?query="+commune,
+                            "https://api.themoviedb.org/3/genre/"+genre.getId()+"/movies?api_key=d091f93064f3b8e11ff8fde6b021699f&language="+lang+"&include_adult=false&sort_by=created_at.asc",
                             new Response.Listener<String>() {
 
                                 public void onResponse(String response) {
 
                                     try {
-                                        JSONArray ar = (JSONArray) new JSONTokener(response).nextValue();
-                                        JSONObject obj;
-                                        String activites="";
+                                        JSONArray ar = ((JSONObject) new JSONTokener(response).nextValue()).getJSONArray("results");
                                         ArrayList<Film> liste=new ArrayList<Film>();
 
-                                        for (int i = 0;i<ar.length();i++)
+                                        JSONObject film;
+                                        for (int i = 0;i<ar.length() && i<nbFilm;i++)
                                         {
-                                            obj=ar.getJSONObject(i);
-                                            String nom = obj.getString("nom");
-                                            JSONObject adresse = obj.getJSONObject("adresse");
-                                            JSONArray equipements = obj.getJSONArray("equipements");
-                                            JSONObject equipement=equipements.getJSONObject(0);
-                                            try
-                                            {
-                                                JSONArray toutesActivites=equipement.getJSONArray("activites");
-                                                activites="";
-                                                for(int act=0;act<toutesActivites.length();act++)
-                                                {
-                                                    activites+=toutesActivites.get(act)+" ";
-                                                }
-                                            }catch (Exception e)
-                                            {
-                                                activites+="";
-                                            }
-
-                                            int numero=0;
-                                            try
-                                            {
-                                                numero=Integer.parseInt(adresse.getString("numero"));
-                                            }catch (Exception e)
-                                            {
-                                                numero=0;
-                                            }
-                                            liste.add(new Film(nom, numero, adresse.getString("voie"),adresse.getString("codePostal"),activites));
-
+                                            film=ar.getJSONObject(i);
+                                            liste.add(new Film(
+                                                    film.getString("id"),
+                                                    film.getString("title"),
+                                                    film.getString("release_date"),
+                                                    film.getString("poster_path")
+                                            ));
 
                                         }
-                                        //   Log.v("JSONOBJET",ar.toString());
+                                        Log.v("FILMs",liste.toString());
                                         FilmArrayAdapter aa=new FilmArrayAdapter(ListingMovies.this,liste);
-                                        ListView visu = (ListView) findViewById(R.id.ListeLISTVIEW);
+                                        ListView visu = (ListView) findViewById(R.id.listeFilm);
                                         visu.setAdapter(aa);
 
                                     } catch (JSONException je) {

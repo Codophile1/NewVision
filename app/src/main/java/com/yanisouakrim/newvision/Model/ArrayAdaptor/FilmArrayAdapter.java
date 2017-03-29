@@ -7,14 +7,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
 import com.yanisouakrim.newvision.Model.Film.Film;
+import com.yanisouakrim.newvision.Model.Film.Genre;
 import com.yanisouakrim.newvision.R;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 /**
  * Created by willi on 22/03/2017.
@@ -49,14 +53,19 @@ public class FilmArrayAdapter extends ArrayAdapter
         }
 
         //(2) : Récupération des TextView de notre layout
-       /* TextView tv_Nom = (TextView)layoutItem.findViewById(R.id.nom);
-        TextView tv_Prenom = (TextView)layoutItem.findViewById(R.id.activite);
-        //tv_Prenom.setText("cc");
-        Log.v("DHEebug...",tv_Prenom.getText()+"");
+        TextView titre = (TextView)layoutItem.findViewById(R.id.titre);
+        TextView date = (TextView) layoutItem.findViewById(R.id.date);
+        ImageView img = (ImageView) layoutItem.findViewById(R.id.poster);
+
+
+
+        String lang= Locale.getDefault().toLanguageTag();
+
 
         //(3) : Renseignement des valeurs
-        tv_Nom.setText(this.objets.get(position).getNom());
-        tv_Prenom.setText(this.objets.get(position).getActivite());*/
+        titre.setText(this.objets.get(position).getTitle());
+        date.setText(this.objets.get(position).getRelease_date());
+        Picasso.with(mContext).load("https://image.tmdb.org/t/p/w300"+this.objets.get(position).getPosterPath()).into(img);
 
         //(4) Changement de la couleur du fond de notre item
         /*if (mListP.get(position).genre == Personne.MASCULIN) {

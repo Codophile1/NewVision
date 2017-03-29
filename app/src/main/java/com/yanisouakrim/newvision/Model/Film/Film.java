@@ -27,6 +27,13 @@ public class Film
     private float voteAverage;
     private int voteCount;
 
+    public Film(String id, String title,  String release_date,String posterPath) {
+        this.id = id;
+        this.title = title;
+        this.release_date = release_date;
+        this.posterPath=posterPath;
+    }
+
     public Film(String id, String title, boolean adult, CollectionFilm collection, ArrayList<Genre> genres,
                 String homePage, String originalLanguage, String originalTitle, String overview, String popularity,
                 String posterPath, ArrayList<ProductionCompany> productionCompanies,
@@ -122,5 +129,13 @@ public class Film
 
     public int getVoteCount() {
         return voteCount;
+    }
+
+    @Override
+    public String toString() {
+        return "Film{" +
+                "title='" + title + '\'' +
+                ", id='" + id + '\'' +
+                '}';
     }
 }

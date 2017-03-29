@@ -2,6 +2,7 @@
     <string name="app_name">NewVision</string>
     <string name="nb_films_label">Nombre de films à afficher</string>
     <string name="type_films_label">Type de films à afficher</string>
+    <string name="search_label">Rechercher</string>
     <string-array name="nb_films">
         <item>5</item>
         <item>10</item>
