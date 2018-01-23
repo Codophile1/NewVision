@@ -84,7 +84,6 @@ public class NewVisionMain extends AppCompatActivity {
                     {
                         Intent in = new Intent(NewVisionMain.this,ListingMovies.class);
                         int nbFilm=(Integer.parseInt((((Spinner)findViewById(R.id.nb_films_spinner)).getSelectedItem())+""));
-                        Log.v("nbFilm",((Spinner)findViewById(R.id.nb_films_spinner)).getSelectedItem()+"");
 
                         Genre genre=(Genre)(((Spinner)findViewById(R.id.type_films)).getSelectedItem());
                         in.putExtra("nbFilms",nbFilm);

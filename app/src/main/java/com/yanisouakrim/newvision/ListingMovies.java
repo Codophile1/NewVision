@@ -1,9 +1,11 @@
 package com.yanisouakrim.newvision;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.android.volley.Request;
@@ -13,7 +15,6 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.yanisouakrim.newvision.Model.ArrayAdaptor.FilmArrayAdapter;
-import com.yanisouakrim.newvision.Model.Film.CollectionFilm;
 import com.yanisouakrim.newvision.Model.Film.Film;
 import com.yanisouakrim.newvision.Model.Film.Genre;
 
@@ -26,7 +27,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 public class ListingMovies extends AppCompatActivity {
-//li
+    //li
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -69,10 +70,21 @@ public class ListingMovies extends AppCompatActivity {
                                             ));
 
                                         }
-                                        Log.v("FILMs",liste.toString());
                                         FilmArrayAdapter aa=new FilmArrayAdapter(ListingMovies.this,liste);
                                         ListView visu = (ListView) findViewById(R.id.listeFilm);
                                         visu.setAdapter(aa);
+
+                                        // On ajoute un listener à la listView;
+
+                                        visu.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                                            @Override
+                                            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                                                Intent in = new Intent(ListingMovies.this,DisplayMovieInfos.class);
+                                                String idMovie= ((Film)(((ListView) findViewById(R.id.listeFilm)).getItemAtPosition(position))).getId();
+                                                in.putExtra("movieId",idMovie);
+                                                startActivity(in);
+                                            }
+                                        });
 
                                     } catch (JSONException je) {
                                         Log.e("Errrr", je.getMessage());

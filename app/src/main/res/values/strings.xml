@@ -2,7 +2,21 @@
     <string name="app_name">NewVision</string>
     <string name="nb_films_label">Nombre de films à afficher</string>
     <string name="type_films_label">Type de films à afficher</string>
+    <string name="release_date">Date de sortie</string>
+    <string name="original_language">Langue d\'origine</string>
+    <string name="original_title">Titre d\'origine</string>
+    <string name="title">Titre</string>
+    <string name="overview">Descriptif</string>
+    <string name="popularity">Popularité</string>
+    <string name="vote_average">moyenne de vote</string>
     <string name="search_label">Rechercher</string>
+    <string name="suggestion">Suggestions</string>
+
+
+
+    <string name="production_companies">Société(s) de production</string>
+    <string name="production_countries">Pays de production</string>
+
     <string-array name="nb_films">
         <item>5</item>
         <item>10</item>

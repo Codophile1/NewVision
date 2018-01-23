@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_c12edd3b8386f6f9f8121584e09e7c1cf53edb63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3cf961b007ad31d37a172726f485d943b33c04d1">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b6332ea41a6df8ffdd38457e33984a2d4157098e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_6373837739db0c9419e0ad4f2dabd7409c5e3316\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_c4b35792a74d4406c779bf6ed84da1dca0b47325\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_bf3573c5df509a16360185ffc8d3d6f7962ca0e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.1_6133ba80dce1178d88e54d6e2088ba11270ce701\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_82f56c32a5baef914396b530c054275f36ef0c74\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.1_affdd6e67675bd08aa4e4059f5e40a02669f87ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_557efaa5fee4b58d5473022883a21b07643df522\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_16ccac9d78baa1f822cdd202f2f70f3bed54d7d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_5080d7e0177320a952f74785a173642ad140c99b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81e80dbc4a303212c1aedcbcd316e7db172e8190">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_51ea770dba266b63ed887daf1ef784152f5c1514\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_f56c4f9d0ed3e66d830fc57dda1e844f24fee843\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_ef891a6ddbba82dc73f257519cb86488425304ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_6cd12e2a76c06af955923cb13dcd71aad3404d21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_afcf97333f5fa318cb1380730e936ee69a004d54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\willi\Documents\workspace\Cours\S4\Developpement_application_mobile\NewVision\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_042591d2507f60bfd73581354be13021e604033d\classes.dex" />
+    </item>
+
+</items>

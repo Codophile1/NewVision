@@ -24,7 +24,7 @@ public class Film
     private String release_date;
     private String status;
     private String tagLine;
-    private float voteAverage;
+    private String voteAverage;
     private int voteCount;
 
     public Film(String id, String title,  String release_date,String posterPath) {
@@ -38,7 +38,7 @@ public class Film
                 String homePage, String originalLanguage, String originalTitle, String overview, String popularity,
                 String posterPath, ArrayList<ProductionCompany> productionCompanies,
                 ArrayList<ProductionCountry> production_countries, String release_date,
-                String status, String tagLine, float voteAverage, int voteCount) {
+                String status, String tagLine, String voteAverage, int voteCount) {
         this.id = id;
         this.title = title;
         this.adult = adult;
@@ -123,7 +123,7 @@ public class Film
         return tagLine;
     }
 
-    public float getVoteAverage() {
+    public String getVoteAverage() {
         return voteAverage;
     }
 

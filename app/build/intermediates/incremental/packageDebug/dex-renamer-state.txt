@@ -1,0 +1,7 @@
+#Tue Jan 23 17:05:44 CET 2018
+base.0=C\:\\Users\\willi\\Documents\\workspace\\Cours\\S4\\Developpement_application_mobile\\NewVision\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b6332ea41a6df8ffdd38457e33984a2d4157098e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\willi\\Documents\\workspace\\Cours\\S4\\Developpement_application_mobile\\NewVision\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_51ea770dba266b63ed887daf1ef784152f5c1514\\classes.dex
+base.1=C\:\\Users\\willi\\Documents\\workspace\\Cours\\S4\\Developpement_application_mobile\\NewVision\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_51ea770dba266b63ed887daf1ef784152f5c1514
+file.0=C\:\\Users\\willi\\Documents\\workspace\\Cours\\S4\\Developpement_application_mobile\\NewVision\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b6332ea41a6df8ffdd38457e33984a2d4157098e\\classes.dex

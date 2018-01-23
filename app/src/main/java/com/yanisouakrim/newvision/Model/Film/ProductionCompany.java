@@ -21,4 +21,9 @@ public class ProductionCompany
     public String getName() {
         return name;
     }
+
+    public String toString()
+    {
+        return this.name;
+    }
 }
